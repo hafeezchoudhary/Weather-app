@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/utils/cn.js", "src/utils/convertKelvinToCelsius.js", "src/utils/convertWindSpeed.jsx", "src/utils/getDayOrNightIcon.js", "src/utils/metersToKilometers.js", "src/app/atom.js", "src/components/Container.jsx", "src/components/ForecastWeatherDetail.jsx", "src/components/Navbar.jsx", "src/components/SearchBox.jsx", "src/components/WeatherDetails.jsx", "src/components/WeatherIcon.jsx", "src/app/page.jsx", "src/app/layout.jsx"],
+  "exclude": ["node_modules"]
+}
